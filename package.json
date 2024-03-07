@@ -1,0 +1,33 @@
+{
+  "name": "hello-react",
+  "version": "1.0.0",
+  "description": "This is a sample of my react work",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prathibha2399/React-Works.git"
+  },
+  "keywords": [
+    "React",
+    "Samples"
+  ],
+  "author": "Prathibha A S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prathibha2399/React-Works/issues"
+  },
+  "homepage": "https://github.com/Prathibha2399/React-Works#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
