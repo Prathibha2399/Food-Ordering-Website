@@ -1,3 +1,65 @@
-#heading{
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+
+.logo{
+    width : 150px;
+}
+
+.nav-items{
+    padding : 0px 20px;
+}
+
+.nav-items > ul {
     color: blueviolet;
+    font-size: 20px;
+    display : flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li{
+   padding : 10px;
+   margin : 10px;
+}
+
+.res-container{
+    margin : 5px;
+    display: flex;
+    flex-wrap : wrap;
+}
+
+.res-card{
+    margin :  5px ;
+    width : 170px;
+    padding : 5px;
+    background-color: #f0f0f0cc;
+}
+
+.res-card:hover{
+    cursor : pointer;
+    box-shadow: 8 8;
+    border : 1px solid black;
+}
+
+.searchBar{
+    padding : 10px;
+}
+
+
+.res-logo{
+    width : 100%;
+}
+
+h3.Heading{
+    text-decoration-line: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.filter-btn{
+    margin : 10px;
+    cursor : pointer;
 }
